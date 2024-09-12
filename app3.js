@@ -34,4 +34,10 @@ let personaje = {
         nacimiento: 1889,
     }
 
+    equipo.ubicacion = 'Av. Genova 640';
+
     console.log(equipo);
+
+    let resultado = Math.random() * 10;
+
+    console.log(resultado);
