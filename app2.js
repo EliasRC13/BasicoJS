@@ -21,3 +21,11 @@ equipos.splice(1, 3);
 console.log(equipos);
 
 console.log(equipos.indexOf('Rosario Central'));
+
+equipos.forEach(function(equipos){
+    if (equipos == 'Velez'){
+        console.log('Existe');
+    } else {
+        console.log('No Existe');
+    }
+});
