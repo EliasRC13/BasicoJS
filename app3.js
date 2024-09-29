@@ -41,3 +41,19 @@ let personaje = {
     let resultado = Math.random() * 10;
 
     console.log(resultado);
+
+    delete personaje.vivo;
+
+    console.log(personaje);
+
+    const entriesPares = Object.entries(personaje);
+
+    console.log(entriesPares);
+
+    const propiedades = Object.getOwnPropertyNames(personaje);
+
+    const valores = Object.values(personaje);
+
+    console.log(propiedades);
+
+    console.log(valores);
