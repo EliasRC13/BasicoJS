@@ -36,3 +36,22 @@ juegos.splice(4, 1);
 console.log(juegos);
 
 console.log(juegos.indexOf('Zelda'));
+
+console.log("Otro ejercicio");
+
+let numeros = [1, 2, 3];
+
+numeros.forEach((i, index)=> {
+
+    numeros[index] = i + 1;
+    console.log(numeros[index]);
+});
+
+console.log(numeros);
+
+if (numeros.indexOf(4) !== -1) {
+    numeros.pop();
+    numeros.push(5);
+}
+
+console.log(numeros);
