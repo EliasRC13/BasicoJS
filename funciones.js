@@ -61,3 +61,4 @@ const imprimePersonaje2 = ({nombre, codeName})=> {
 }
 
 imprimePersonaje2(Tony);
+
